@@ -1,0 +1,21 @@
+header {
+    background-color: lightpink;
+    width:  75%;
+    padding: 10px;
+    height: 100%;
+    margin: 12%;
+    text-align: center;
+}
+
+
+
+body {
+    color:  lightseagreen;
+    font-family: monospace;
+}
+
+
+
+main {
+    text-align: center;
+}
