@@ -56,3 +56,72 @@ footer {
     font-family: 'Montserrat', sans-serif;
     color: #8ac6d1;
 }
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    color: #8ac6d1;
+    font-size: 40px;
+    position: fixed;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #8ac6d1;
+}
+
+a:hover{
+    color: #bbded6;
+}
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.content p {
+    margin: 10px;
+}
+
+h2 {
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+.side_shit{
+    font-family: 'Montserrat', sans-serif;
+    color: #8ac6d1;
+    font-size: 20px;
+    position: fixed;
+    bottom: 20px;
+    
+}
+
+.content .pictures {
+    left: 10%;
+}
+
+.pictures {
+    height: 60%;
+    width: 60%;
+}
+
+.pictures img {
+    max-width: 100%;
+    height: auto;
+}
+
+.artist_name{
+    margin: 10px;
+    margin-bottom: 20px;
+}
