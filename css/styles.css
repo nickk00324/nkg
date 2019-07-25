@@ -72,6 +72,11 @@ li {
     padding: 10px;
 }
 
+li h1{
+    padding-top: 50px;
+    margin: 20px 10px;
+}
+
 a {
     text-decoration: none;
     color: #8ac6d1;
@@ -98,14 +103,46 @@ h2 {
     font-size: 20px;
 }
 
+.top-bar{
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 5;
+}
+
+.description{
+    font-family: 'Crimson Text', serif;
+    padding-right: 50px;
+}
+
+.description p{
+    margin: 10px 10px 20px 0;
+    font-size: 18px;
+}
+
+.top-bar li{
+    display: inline-block;
+}
+
 .side_shit{
     font-family: 'Montserrat', sans-serif;
     color: #8ac6d1;
     font-size: 20px;
     position: fixed;
-    bottom: 20px;
-    
+    bottom: 20px;  
 }
+
+.side_shit h2 {
+    color: #222;
+    margin: 0;
+}
+
+.content h2 {
+    color: #8ac6d1;
+    font-size: 3rem;
+}
+
 
 .content .pictures {
     left: 10%;
