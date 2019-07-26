@@ -49,7 +49,7 @@ h1 {
 }
 
 main {
-    height: 5000px;
+    height: 7500px;
 }
 
 footer {
@@ -161,4 +161,12 @@ h2 {
 .artist_name{
     margin: 10px;
     margin-bottom: 20px;
+}
+
+.featured-works{
+    margin-top: 100px;
+}
+
+.featured-works h3{
+   color: #8ac6d1;
 }
