@@ -175,3 +175,7 @@ footer{
     text-align: center;
     font-size: 50px;
 }
+
+.smaller-text{
+    font-size: 16px;
+}
