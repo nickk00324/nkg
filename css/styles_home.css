@@ -58,10 +58,11 @@ footer {
 }
 
 nav {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Allura', sans-serif;
     color: #8ac6d1;
     font-size: 40px;
     position: fixed;
+    font-weight: 700;
 }
 
 ul {
@@ -92,6 +93,7 @@ a:hover{
     position: absolute;
     top: 20%;
     left: 50%;
+    
 }
 
 .content p {
@@ -126,11 +128,12 @@ h2 {
 }
 
 .side_shit{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Allura', sans-serif;
     color: #8ac6d1;
-    font-size: 20px;
+    font-size: 30px;
     position: fixed;
     bottom: 20px;  
+    font-weight: 700;
 }
 
 .side_shit h2 {
@@ -180,5 +183,11 @@ footer{
     font-size: 16px;
 }
 
+.title {
+    font-family: 'Allura';
+}
 
-
+.bottom-title{
+    font-family: 'Tangerine';
+    font-size: 1.75rem !important;
+}
