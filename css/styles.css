@@ -45,7 +45,7 @@ h1 {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 main {
@@ -55,12 +55,13 @@ main {
 footer {
     font-family: 'Montserrat', sans-serif;
     color: #8ac6d1;
+    position: static;
 }
 
 nav {
     font-family: 'Montserrat', sans-serif;
     color: #8ac6d1;
-    font-size: 40px;
+    font-size: 2.5vw;
     position: fixed;
 }
 
@@ -96,6 +97,7 @@ a:hover{
 
 .content p {
     margin: 10px;
+    
 }
 
 h2 {
@@ -140,7 +142,7 @@ h2 {
 
 .content h2 {
     color: #8ac6d1;
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 
@@ -177,7 +179,62 @@ footer{
 }
 
 .smaller-text{
-    font-size: 16px;
+    font-size: 1.2vw;
+}
+
+.email{
+    font-size: 2vw;
+}
+
+@media screen and (max-width: 700px){
+    .content{
+        position: static;
+    }
+
+    .top-bar{
+        position: static;
+    }
+
+    nav{
+        position: static;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    nav{
+        font-size: 1.5rem;
+    }
+
+    header{
+        top: 40%;
+        left: 10%;
+    }
+
+    header h1{
+        font-size: 3rem;
+    }
+
+    .content h2{
+        font-size: 1.8rem;
+    }
+
+    .content p{
+        font-size: 20px;
+    }
+
+    .email{
+        font-size: 20px;
+    }
+
+    .smaller-text{
+        font-size: 12px;
+    }
+
+    
+
+
 }
 
 
