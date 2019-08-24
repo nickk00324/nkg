@@ -191,3 +191,56 @@ footer{
     font-family: 'Tangerine';
     font-size: 1.75rem !important;
 }
+
+@media screen and (max-width: 700px){
+    .content{
+        position: static;
+        margin: 0;
+        padding: 0;
+    }
+
+    .top-bar{
+        position: static;
+    }
+
+    nav{
+        position: static;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    nav{
+        font-size: 1.5rem;
+    }
+
+    header{
+        top: 40%;
+        left: 10%;
+    }
+
+    header h1{
+        font-size: 2.5rem;
+    }
+
+    .content h2{
+        font-size: 1.8rem;
+    }
+
+    .content p{
+        font-size: 15px;
+    }
+
+    .email{
+        font-size: 15px;
+    }
+
+    .smaller-text{
+        font-size: 12px;
+    }
+
+    
+
+
+}
