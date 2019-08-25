@@ -158,6 +158,10 @@ h2 {
     height: auto;
 }
 
+.pr-image{
+    width: 60%;
+}
+
 .artist_name{
     margin: 10px;
     margin-bottom: 20px;

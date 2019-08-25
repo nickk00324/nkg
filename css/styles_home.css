@@ -151,15 +151,7 @@ h2 {
     left: 10%;
 }
 
-.pictures {
-    height: 60%;
-    width: 60%;
-}
 
-.pictures img {
-    max-width: 100%;
-    height: auto;
-}
 
 .artist_name{
     margin: 10px;
