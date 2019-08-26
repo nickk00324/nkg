@@ -244,16 +244,16 @@ footer{
     }
 
     nav{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     header{
         top: 40%;
-        left: 10%;
+        left: 13%;
     }
 
     header h1{
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .content h2{
@@ -270,6 +270,14 @@ footer{
 
     .smaller-text{
         font-size: 12px;
+    }
+
+    .side_shit{
+        font-size: 14px;   
+    }
+
+    .side_shit h2{
+        font-size: 14px;
     }
 
     
