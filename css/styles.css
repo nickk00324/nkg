@@ -12,6 +12,15 @@
     animation-direction: alternate;
 }
 
+.home{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/artists/img/diegoBarrientos/02/Paintings\ by\ Diego_install-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @keyframes circle_anim{
     from {
         transform: scale(5)
