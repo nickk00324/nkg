@@ -1,0 +1,65 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+h1{
+    flex-basis: 100%;
+    font-size: 15vw;
+    line-height: .7;
+    margin: 0 0 50px 0;
+}
+
+h2{
+    margin: 10px 20px;
+}
+
+h3{
+    position: fixed;
+    right: -100px;
+    bottom: 200px;
+    transform: rotate(-90deg);
+}
+
+.fab{
+    font-size: 2rem;
+}
+
+footer{
+    text-align: center;
+    flex-basis: 100%;
+}
+
+a{
+    color: pink;
+    transition: all 1s;
+}
+
+a:visited{
+    color: pink;
+}
+
+a:hover{
+    color: rgb(255, 44, 125)
+}
+
+.circle{
+    position: fixed;
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    top: 30vh;
+    left: 30vw;
+    z-index: -100;
+}
+
+.logo{
+    position: fixed;
+    bottom: 10px;
+    left: 30vw;
+    font-weight: bold;
+}
